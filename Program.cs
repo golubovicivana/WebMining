@@ -5,7 +5,7 @@ var context = new MLContext();
 
 // 1. Učitavanje podataka
 var data = context.Data.LoadFromTextFile<SpamData>(
-    path: "Web_Mining_spam.csv",
+    path: "Web_Mining_spam_cleaned.csv",
     hasHeader: true,
     separatorChar: ',');
 
